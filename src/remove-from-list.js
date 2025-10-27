@@ -33,7 +33,7 @@ function removeKFromList(l, k) {
       curr = curr.next;
     }
   }
-  return curr;
+  return l;
 }
 
 module.exports = {
